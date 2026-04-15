@@ -16,4 +16,5 @@ void konfiguracja() {
     printf("                                                                                                                                                                                                                                                   ");
     keyboard_getchar();
     blue();
+    blue();
 }
