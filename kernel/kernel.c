@@ -12,7 +12,7 @@ void kernel_main(void)
         blue();
         konfiguracja();
         vga_init();
-        printf("clovaos by radoslaw sitarski 2026 shell. write command!\n");
+        printf("xentariOS by radoslaw sitarski 2026 shell. write command!\n");
         shell();
     }
 }
