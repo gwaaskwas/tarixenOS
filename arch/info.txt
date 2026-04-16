@@ -1,0 +1,1 @@
+beda tu umieszczane pliki zalezne od archiektury.
