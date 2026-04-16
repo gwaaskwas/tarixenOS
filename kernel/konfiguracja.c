@@ -15,7 +15,7 @@ void konfiguracja() {
     printf("Witam w Systemie tarixeniOS!                                                                                                              \n");
     printf("nasz system jest dopiero co stworzony wiec sie nie dziw ze jest niedokonczony                                                                                                                                                                          \n");
     printf("mam nadzieje ze ci sie spodoba                                                                                                                                         \n");
-    printf("napisz cos aby wyjsc z konfiguracji (jesli chcesz tryb graficzny napisz g)                                                                                                                                                                                                             \n");
+    printf("kliknij enter aby wyjsc z konfiguracji (jesli chcesz tryb graficzny napisz g)                                                                                                                                                                                                             \n");
     printf("                                                                                                                                                                                                                                                   ");
     char buf[256] = {0};
     int i = 0;
@@ -29,7 +29,9 @@ void konfiguracja() {
             break;
         } else {
             blue();
-            blue();
+            if (i < (int)sizeof(buf) - 1) {
+                buf[i++] = com;
+            }
         }
     }
 }
