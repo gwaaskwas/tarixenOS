@@ -36,8 +36,8 @@ static uint32_t strlen(const char *s) {
     return len;
 }
 
-extern void read_sector(uint32_t sector, char *buffer);
-extern void write_sector(uint32_t sector, const char *buffer);
+void read_sector(uint32_t sector, char *buffer) { (void)sector; (void)buffer; }
+void write_sector(uint32_t sector, const char *buffer) { (void)sector; (void)buffer; }
 
 static void read_block(uint32_t block, char *buffer) { read_sector(block, buffer); }
 static void write_block(uint32_t block, const char *buffer) { write_sector(block, buffer); }
@@ -86,7 +86,7 @@ void init_fs() {
         free_block_count = DATA_BLOCKS;
         memset(inode_cache, 0, sizeof(inode_cache));
         write_block(1, (char *)inode_cache);
-        struct inode *root = &inode_cache[0];
+        struct inode *root = &inode_cache[0]; 
         root->size = 0;
         root->type = 1;
         write_block(1, (char *)inode_cache);
@@ -189,7 +189,7 @@ int create_dir(const char *name) {
     char data[BLOCK_SIZE];
     read_block(dir_block, data);
     char *ptr = data;
-    while (*ptr) ptr += strlen(ptr) + 1 + sizeof(uint32_t);
+    while (*ptr) ptr += strlen(ptr) + 1 + sizeof(uint32_t); //jesli widzisz ten komentarz to jestes dziwakiem, odpowiadajac na pytania - tak ten kod napisalem chaotycznie, sam nie wiem jakim cudem dziala, nie powinien dzialac
     strcpy(ptr, name);
     ptr += strlen(name) + 1;
     *(uint32_t *)ptr = inode_id;
