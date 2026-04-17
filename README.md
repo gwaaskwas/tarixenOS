@@ -23,7 +23,7 @@ aby dodac swoj program do systemu sa dwa sposoby
 
 ### 1. najlatwiejszy
 
-poprostu wysylasz mi kod i ja go dodaje do katalogu kernel/apps.
+poprostu wysylasz mi kod i ja go dodaje do katalogu kernel/apps/appdownload.
 
 ### 3. trudniejszy
 
