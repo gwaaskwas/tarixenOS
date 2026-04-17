@@ -5,6 +5,7 @@
 #include "../kernel/apps/kaka.h"
 #include "../kernel/apps/pakiet.h"
 #include "../kernel/apps/calc.h"
+#include "../kernel/apps/appdownload/appdownload.h"
 
 void shell() {
     vga_init();
@@ -28,11 +29,16 @@ void shell() {
                 printf(" k - gra pt. kaka\n");
                 printf(" { - pakiet biurowy\n");
                 printf(" c - kalkulator\n");
+                printf(" a - sklep z aplikacjami\n");
             }
 
             if (buf[0] == 'v') {
                 printf(" wersja: 1.0.0\n");
                 printf("\n");
+            }
+
+            if (buf[0] == 'a') {
+                appd();
             }
 
             if (buf[0] == '{') {
