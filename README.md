@@ -30,3 +30,8 @@ poprostu wysylasz mi kod i ja go dodaje do katalogu kernel/apps/appdownload.
 ### 3. trudniejszy
 
 bierzesz kod systemu i sam dodajesz aplikacje
+
+# styl pisania kodu
+
+musisz pisać komentarze po polsku i commity po polsku i większość rzeczy po polsku ponieważ to polski projekt
+kod masz pisać w C, ponieważ c++ nie nadaje się według mnie bo ma za dużo niepotrzebnych funkcji.
