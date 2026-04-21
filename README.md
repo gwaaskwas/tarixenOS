@@ -35,3 +35,5 @@ bierzesz kod systemu i sam dodajesz aplikacje
 
 musisz pisać komentarze po polsku i commity po polsku i większość rzeczy po polsku ponieważ to polski projekt
 kod masz pisać w C, ponieważ c++ nie nadaje się według mnie bo ma za dużo niepotrzebnych funkcji.
+
+c++ można użyć tylko wtedy gdy pozwole i nie w krytycznych miejscach, tylko w obsłudze użytkownika ale i ta większość w C.
