@@ -3,7 +3,6 @@
 void beep()
 {
     unsigned short divisor = 1193180 / 1000; // 1000 Hz
-    unsigned char tmp;
 
     // Programowanie PIT kanał 2
     __asm__ __volatile__ (

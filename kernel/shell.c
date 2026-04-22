@@ -6,6 +6,7 @@
 #include "../kernel/apps/pakiet.h"
 #include "../kernel/apps/calc.h"
 #include "../kernel/apps/appdownload/appdownload.h"
+#include "../kernel/apps/wyp.hpp"
 
 void shell() {
     vga_init();
@@ -31,11 +32,16 @@ void shell() {
                 printf(" c - kalkulator\n");
                 printf(" a - sklep z aplikacjami\n");
                 printf(" r - wylaczenie\n");
+                printf(" w - wypisanie tekstu\n");
             }
 
             if (buf[0] == 'v') {
                 printf(" wersja: 1.0.0\n");
                 printf("\n");
+            }
+
+            if (buf[0] == 'w') {
+                wyp();
             }
 
             if (buf[0] == 'r') {
