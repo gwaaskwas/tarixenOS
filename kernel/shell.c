@@ -73,7 +73,7 @@ void shell() {
             }
 
             if(buf[0] == 'i') {
-                printf(" system name: tarixeniOS\n");
+                printf(" system name: tarixenOS\n");
                 printf(" 2026 version\n");
             }
 

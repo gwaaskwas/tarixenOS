@@ -20,7 +20,7 @@ cd build
 
 a nastepnie komenda:
 
-qemu-system-x86_64 -hda tarixenios.img
+qemu-system-x86_64 -hda tarixenOS.img
 
 uwaga musisz mieć qemu!
 

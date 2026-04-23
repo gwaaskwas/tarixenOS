@@ -17,7 +17,7 @@ void kernel_main(void)
         konfiguracja();
         vga_init();
         printf("system jest prosty w uzyciu, napisz 'h' aby wejsc w menu pomocy.\n");
-        printf("tarixeniOS by radoslaw sitarski 2026 shell. write command!\n");
+        printf("tarixenOS by radoslaw sitarski 2026 shell. write command!\n");
         shell();
     }
 }

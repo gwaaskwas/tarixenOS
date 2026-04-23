@@ -1,5 +1,5 @@
 <img width="879" height="419" alt="system" src="https://github.com/user-attachments/assets/54e57c95-b241-4526-a9ee-4c2861fc7bcb" />
-System tarixeniOS to system napisany w C który ma za zadanie być zamiennikiem dla systemów korporacyjnych lub tych cięższych, przez co nadaje się na stare komputery. Mile widziane są jakiekolwiek sugestie dotyczące systemu.
+System tarixenOS to system napisany w C który ma za zadanie być zamiennikiem dla systemów korporacyjnych lub tych cięższych, przez co nadaje się na stare komputery. Mile widziane są jakiekolwiek sugestie dotyczące systemu.
 jeżeli chcesz dodać jakąś funkcje śmiało wyślij zmiane a ja ją zatwierdze.
 <img width="296" height="117" alt="Zrzut ekranu_20260417_205309" src="https://github.com/user-attachments/assets/bf3383f3-4e21-4a90-8050-86d38682d3bf" />
 

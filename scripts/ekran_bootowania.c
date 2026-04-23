@@ -4,5 +4,5 @@
 
 void ekran_bootowania() {
     vga_init();
-    printf("tarixeniOS\n");
+    printf("tarixenOS\n");
 }
