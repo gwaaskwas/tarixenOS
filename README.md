@@ -43,6 +43,8 @@ kod masz pisać w C, ponieważ c++ nie nadaje się według mnie bo ma za dużo n
 
 c++ można użyć tylko wtedy gdy pozwole i nie w krytycznych miejscach, tylko w obsłudze użytkownika ale i ta większość w C.
 
+komentarze mają być tylko wtedy jeżeli kod jest w danym miejscu mniej czytelniejszy
+
 # historia
 
 system powstał ponieważ od zawsze chciałem stworzyć system ale nie wiedziałem od czego zacząć, gdy poznałem assembler i C, obejrzałem kilka poradników wziąłem się do roboty. 
@@ -92,3 +94,14 @@ a nastepnie wlaczanie w qemu:
 `qemu-system-x86_64 -hda tarixenOS.img`
 
 i tyle.
+
+# konwencja commitów
+
+jesli naprawiasz błąd nazwa commitu ma sie zaczynac od: 
+
+naprawa błędu: (jaki blad naprawiles)
+
+jesli dodajesz nowa funkcje napisz na poczatku:
+
+dodano funkcje: (jaka funkcje dodales)
+
