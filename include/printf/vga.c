@@ -31,7 +31,7 @@ void vga_putc(char c) {
     }
     
     if (row >= 25) {
-        // Scroll up
+        //przesuwanie ekranu
         for (uint16_t i = 0; i < 1920; i++) {
             vga_buffer[i] = vga_buffer[i + 80];
         }

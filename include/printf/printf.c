@@ -30,7 +30,7 @@ static void print_int(int value) {
     }
 }
 
-void printf(const char* format, ...) {
+void printf(const char* format, ...) { // deklaracja funkcji printf
     va_list args;
     va_start(args, format);
 

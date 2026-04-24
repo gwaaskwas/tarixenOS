@@ -94,7 +94,7 @@ $(ISO_IMAGE): $(UEFI_BIN) $(KERNEL_ELF64) | $(ISO_DIR)
 			--efi-boot bootx64.efi \
 			$(ISO_DIR); \
 	else \
-		echo "xorriso brak - użyj mkisofs lub genisoimage lub ręcznie"; \
+		echo "nie ma xorriso sam se rob"; \
 	fi
 
 clean:
